@@ -178,7 +178,7 @@ df_full['Google Cloud Operating Income/Loss'] = df_full['Google Cloud Operating 
 df_full.drop(columns=['Google Cloud Operating Income', 'Google Cloud Operating Loss'], errors='ignore', inplace=True)
 
 
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alphabet_Inc_logo.svg/1280px-Alphabet_Inc_logo.svg.png", use_container_width=True)
+st.sidebar.image("https://www.tadviser.ru/images/3/38/Alphabet_LOGO.png", use_container_width=True)
 st.sidebar.title("Выполнил: Русинов Денис")
 st.sidebar.title("🛠️ Настройки Дэшборда")
 all_years = sorted(df_full.index.unique().tolist())
